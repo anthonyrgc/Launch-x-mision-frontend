@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tony pasteleria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <nav>
+      <img src="" />
+      <h1>Tony Pasteleria</h1>
+      <p>Home</p>
+      <p>Menu</p>
+      <p>Pedir</p>
+    </nav>
+
+    <section>
+      <h2>Sabores</h2>
+      <table>
+        <tr>
+          <th>Sabores</th>
+          <th>Precios</th>
+        </tr>
+        <tr>
+          <td>Chocolate</td>
+          <td>5$</td>
+        </tr>
+        <tr>
+          <td>Vainilla</td>
+          <td>5$</td>
+        </tr>
+        <tr>
+          <td>Fresa</td>
+          <td>5$</td>
+        </tr>
+        <tr>
+          <td>Tres leches</td>
+          <td>10$</td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h2>Adornos</h2>
+      <table>
+        <tr>
+          <th>Adornos</th>
+          <th>Precios</th>
+        </tr>
+        <tr>
+          <td>Pepitas de colores</td>
+          <td>1$</td>
+        </tr>
+        <tr>
+          <td>fresas</td>
+          <td>2$</td>
+        </tr>
+        <tr>
+          <td>Chocolate</td>
+          <td>2$</td>
+        </tr>
+        <tr>
+          <td>Caramelo</td>
+          <td>1$</td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h2>Formulario de Pedidos</h2>
+
+      <form action="/action_page.php">
+        <label for="fname">Nombre</label><br />
+        <input type="text" id="fname" name="fname" value="John" /><br />
+        <label for="lname">Telefono</label><br />
+        <input
+          type="number"
+          id="phone"
+          name="phone"
+          value="58421232323"
+        /><br />
+        <label for="lname">Email</label><br />
+        <input
+          type="email"
+          id="mail"
+          name="mail"
+          value="prueba@prueba.com"
+        /><br /><br />
+        <p>Sabor del pastel:</p>
+        <input type="radio" id="html" name="fav_language" value="HTML" />
+        <label for="html">Chocolaete</label><br />
+        <input type="radio" id="css" name="fav_language" value="CSS" />
+        <label for="css">Vainilla</label><br />
+        <input
+          type="radio"
+          id="javascript"
+          name="fav_language"
+          value="JavaScript"
+        />
+        <label for="javascript">Fresa</label>
+        <br />
+        <input
+          type="radio"
+          id="tresleche"
+          name="fav_language"
+          value="tresleche"
+        />
+        <label for="tresleche">Tres leches</label><br />
+
+        <p>Adornos del pastel</p>
+
+        <input type="checkbox" id="pepitas" name="pepitas" value="pepita" />
+        <label for="pepitas">Pepitas de colores</label><br />
+        <input type="checkbox" id="fresas" name="fresas" value="fresa" />
+        <label for="fresas"> Fresas</label><br />
+        <input
+          type="checkbox"
+          id="chocolates"
+          name="chocolates"
+          value="choco"
+        />
+        <label for="chocolates"> Chocolates</label><br />
+        <input type="checkbox" id="caramelo" name="caramelo" value="caramelo" />
+        <label for="caramelo"> Caramelo</label><br />
+        <br />
+
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+  </body>
+</html>
